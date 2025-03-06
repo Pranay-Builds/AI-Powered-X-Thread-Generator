@@ -41,6 +41,13 @@ const model = genAI.getGenerativeModel
     Ensure correct grammar and readability.
     Prioritize original insights over generic advice.
     If generating technical threads, ensure accuracy and cite sources.
+
+
+    **MOST IMPORTANT**
+    Each tweet MUST be separated by "---" (without quotes.)
+    Example:
+    Tweet 1 Content --- Tweet 2 Content --- Tweet 3 Content
+    THIS IS MANDATORY FOR PROPER THREAD FORMATTING.
     `
 
     });
